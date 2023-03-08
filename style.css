@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'neoclassical';
+    src: url('/neoclassical.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  body {background-color:rgba(218, 218, 218,100);}
+
+  .headings {
+    font-family: 'neoclassical', serif;
+    font-size:2em;
+  }
+
+  .paragraphs {font-family:'Montserrat', sans-serif;
+    font-size:1em;
+    }
+
+  .special-font{font-family: 'Libre Barcode 39 Text', cursive;
+font-size:2em;
+position:fixed;
+bottom:.4em;
+margin-left:1em;}
+
+.main-title{position:fixed;
+right:0;
+top:.2em;
+margin-right:1em}
+
+.welcome-title{margin-left:2em;
+    left:0;
+    top:2em;
+    position:fixed;
+}
+
+.welcome-paragraph{position:fixed;
+    left:0;
+    top:7em;
+    margin-left:2em;
+margin-right:2em;
+font-weight:400;}
