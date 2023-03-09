@@ -19,9 +19,13 @@
     font-size:2em;
   }
 
-  .paragraphs {font-family:'Montserrat', sans-serif;
+  .paragraph-normal {font-family:'Montserrat', sans-serif;
     font-size:1em;
     }
+
+  .paragraph-sm{font-family:'Montserrat', sans-serif;
+    font-size:.8em;
+    font-weight: 300;}
 
   .special-font{font-family: 'Libre Barcode 39 Text', cursive;
 font-size:2em;
@@ -31,18 +35,21 @@ margin-left:1em;}
 
 .main-title{position:fixed;
 right:0;
-top:.2em;
+top:-.5em;
 margin-right:1em}
 
-.welcome-title{margin-left:2em;
-    left:0;
-    top:2em;
-    position:fixed;
+#div-intro{margin-top:60px;
 }
 
-.welcome-paragraph{position:fixed;
-    left:0;
-    top:7em;
-    margin-left:2em;
-margin-right:2em;
+#last-update-div{margin-top:-30px;
+  margin-bottom:30px;
+font-style: italic;}
+
+.welcome-title{margin-left:20px;
+  margin-right:20px;
+}
+
+.welcome-paragraph{
+margin-left:20px;
+margin-right:20px;
 font-weight:400;}
