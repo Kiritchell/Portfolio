@@ -19,10 +19,14 @@
   .headings {
     font-family: 'neoclassical', serif;
     font-size:2em;
+    margin-left:30px;
+    margin-right:30px;
   }
 
   .paragraph-normal {font-family:'Montserrat', sans-serif;
     font-size:1em;
+    margin-left:20px;
+    margin-right:20px;
     }
 
   .paragraph-sm{font-family:'Montserrat', sans-serif;
@@ -42,7 +46,7 @@ top:0;
 margin-bottom:30px;
 font-style: italic;}
 
-.welcome-title{margin-left:20px;
+.welcome-title{margin-left:30px;
 margin-right:20px;
 }
 
@@ -83,6 +87,7 @@ font-weight:400;}
   z-index: 2;
   margin-top:-70px;
   margin-bottom:15px;
+  border:.1px solid #f6f7f8
 }
 
 
